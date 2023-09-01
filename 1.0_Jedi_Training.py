@@ -1,20 +1,22 @@
 '''
-1.0 Jedi Training (17pts)  Name:________________
+1.0 Jedi Training (17pts)  Name:Carlos Guzman
 
 
-1. Define Forking (1pt): 
+1. Define Forking (1pt): Forking is when you create a copy of a read-only repositories
 
-2. Define Cloning (1pt): 
+2. Define Cloning (1pt): Once a repository is forked it is than a cloned to the local computer so the code can be worked
+ on
 
-3. Define Branching (1pt):
+3. Define Branching (1pt):Branching is when there are multiple forks of a code that are in used for multiple reasons and
+ can be put back in the master branch
 
-4. Define Committing (1pt): 
+4. Define Committing (1pt): A commit is a checkpoint in the development of a project
 
-5. Define Merging (1pt): 
+5. Define Merging (1pt): Merging is when a side branch is put in the master branch
 
-6. Define Pushing (1pt):
+6. Define Pushing (1pt): Pushing is when we move our local repository to our remote repository(GitHub.com)
 
-7. Define Pull Request (1pt):
+7. Define Pull Request (1pt):Asking the project owner to "pull" their changes and merge them into the original code
 
 
 8. TURTORIAL ART (10pts.)
@@ -26,28 +28,17 @@ The last line keeps the window open until you click to close.
 Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=turtle
 '''
 import turtle
-yoda=turtle.Turtle()
-screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
+tina = turtle.Turtle()
+tina.color('blue')
+tina.shape("turtle")
+tina.begin_fill()
+tina.goto(200,200)
+tina.goto(200,-200)
+tina.goto(-200,-200)
+tina.goto(-200,200)
+tina.goto(200,200)
+tina.end_fill()
 
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+yoda.write('Carlos Guzman',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
